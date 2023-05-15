@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="wrap">
+    <div class="wrapper">
+      <div class="createField">
+        <div class="createField-input">
+          <div class="reateField-input-colum">
+            <span class="size">Введите размер поля</span>
+            <input type="text" value = 10 class="input_size">
+          </div>
+          <div class="reateField-input-colum">
+            <span class="mine">Введите число мин</span>
+            <input type="text" value = 10 class="input_mine">
+          </div>
+  
+        </div>
+        <button class="createField__btn">Создать</button>
+      </div>
+      <div class="mineField">
+        <div class="mineField-div">
+          <div class="mineField-div-mine-div">
+            <span class="mineField-div-mine-div__text displayNone">Мин осталось: <span class="MineLast">0</span></span>
+            <span class="mineField-div-mine-div__text displayNone"><span class="timer">00:00</span></span>
+          </div>
+        </div>
+        <div class="mineField-mineZone displayNone">
+        </div>
+      </div>
+      <div class="louse displayNone">
+        <div class="louse__title">Вы проиграли!</div>
+        <div class="louse__text">За игру вы нашли <span class="loseMineCol">0</span> мин!</div>
+        <div class="louse__text">Ваше время: <span class="loseTime">00:00</span>!</div>
+        <a href="" class="louse__btn">Попробовать еще раз</a>
+      </div>
+      <div class="win displayNone">
+        <div class="win__title">Вы выиграли!</div>
+        <div class="win__text">За игру вы нашли <span class="winMineCol">0</span> мин!</div>
+        <div class="win__text">Ваше время: <span class="winTime">00:00</span>!</div>
+        <a href="" class="win__btn">Попробовать еще раз</a>
+      </div>
+    </div>
+    <div class="floor">
+      <span class="by">by Denys Hradov</span>
+    </div>
+ </div>
+ <script src="js/script.js"></script>
+</body>
+</html>
