@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+body .wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 98%;
+}
+body .wrap .wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .wrap .wrapper .createField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .wrap .wrapper .createField .createField-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .wrap .wrapper .createField .createField-input .reateField-input-colum {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #000;
+  padding: 8px;
+}
+body .wrap .wrapper .createField .createField-input .reateField-input-colum input {
+  margin-top: 11px;
+  padding: 5px;
+  background: rgba(218, 218, 218, 0.6156862745);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+body .wrap .wrapper .createField .createField-input .reateField-input-colum input:focus {
+  border: 2px dashed gold;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+body .wrap .wrapper .createField__btn {
+  font-size: 25px;
+  padding: 3px;
+  border: 1px solid #000;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+body .wrap .wrapper .createField__btn:hover {
+  margin-top: -2px;
+  padding: 5px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+body .wrap .wrapper .mineField {
+  width: 100%;
+}
+body .wrap .wrapper .mineField .mineField-div {
+  margin-bottom: 5px;
+}
+body .wrap .wrapper .mineField .mineField-div .mineField-div-mine-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .wrap .wrapper .mineField .mineField-mineZone {
+  padding: 3px;
+  border: 1px solid #000;
+}
+body .wrap .wrapper .mineField .mineField-mineZone .mineField-mineZone-line__item {
+  margin: 1px;
+  border: 1px solid #000;
+}
+.error {
+  background: #ff5757;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  border: 2px dashed red;
+  transition-duration: 0.2s;
+}
+.error:focus {
+  background: #ff5757;
+  border: 2px dashed red;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.displayNone {
+  display: none;
+}
+
+.louse {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.louse__title {
+  color: red;
+}
+.louse__text {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.louse__text .loseMineCol, .louse__text .loseTime {
+  font-weight: 700;
+}
+.louse__btn {
+  display: inline-block;
+  font-size: 23px;
+  margin-top: 11px;
+  padding: 3px;
+  border: 1px solid #000;
+}
+
+.win {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.win__title {
+  color: green;
+}
+.win__text {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.win__text .winMineCol, .win__text .winTime {
+  font-weight: 700;
+}
+.win__btn {
+  display: inline-block;
+  font-size: 23px;
+  margin-top: 11px;
+  padding: 3px;
+  border: 1px solid #000;
+}
